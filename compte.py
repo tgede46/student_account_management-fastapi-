@@ -6,10 +6,10 @@ class Compte:
         self.transaction=historique_transaction
 
     def depot(montant):
-
+        pass
 
     def retrait(montant):
-
+        pass
 
     def transfert(montant,compte_destinataire):
-        
+        pass
