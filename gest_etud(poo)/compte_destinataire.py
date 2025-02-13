@@ -7,4 +7,6 @@ class Compte_destinataire:
 
     def __str__(self):
         return f"Compte_destinataire(nom={self.nom}, email={self.email}, numero_compte={self.numero_compte})"
-        
+    
+    def __repr__(self):
+        return self.__str__()
